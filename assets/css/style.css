@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
+main {
+  background: #f8f8ff;
+  font-family: "Source Sans Pro", sans-serif;
+}
+button.th-back-btn {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  border: none;
+  color: transparent;
+  outline: none !important;
+  background-image: url("data:image/svg+xml,%3Csvg width='19' height='16' viewBox='0 0 19 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M18.414 6.707H3.828L9.121 1.414L7.707 0L0 7.707L7.707 15.414L9.121 14L3.828 8.707H18.414V6.707Z' fill='black'/%3E%3C/svg%3E%0A");
+}
+button.th-back-btn:hover {
+  transform: translateY(-2px);
+}
+.card-1,
+.card-2,
+.card-3 {
+  /* background: linear-gradient(90deg, #3ca55c 0%, #b5ac49 100%); */
+
+  /* background-image: url("data:image/svg+xml,%3Csvg width='324' height='77' viewBox='0 0 324 77' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M4.48163 69.1417L39.0236 51.6399L80.5237 69.1417L117.024 42.1417L159.524 36.1417L187.524 12.14L211.024 51.64L242.024 42.1417L279.524 51.6399L300.024 36.1417L323.024 42.1417' stroke='white'/%3E%3C/svg%3E"); */
+  border: 0.8px solid #ffffff;
+  box-sizing: border-box;
+  box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 7.95032px;
+  background-repeat: no-repeat !important;
+  width: 320px;
+  height: 180px;
+}
+.card-1 {
+  background: url("/assets/images/line.svg") center bottom,
+    linear-gradient(90deg, #3ca55c 0%, #b5ac49 100%);
+}
+.card-2 {
+  background: url("/assets/images/line.svg") center bottom,
+    linear-gradient(90deg, #d31027 0%, #ea384d 100%);
+}
+.card-3 {
+  background: url("/assets/images/line.svg") center bottom,
+    linear-gradient(90deg, #aa076b 0%, #61045f 100%);
+}
+.card-1 h5,
+.card-2 h5,
+.card-3 h5 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+}
+.card-1 h1,
+.card-2 h1,
+.card-3 h1 {
+  font-style: normal;
+  margin-top: 2.2rem;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+}
+th,
+td {
+  text-align: center;
+}
+.th-table table thead {
+  background: #f8f8ff;
+  color: #000000;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+}
+.whole-table {
+  background: #fff;
+  box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+}
+.tab-up h2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  color: #000;
+}
+.th-table .table thead th {
+  border: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+}
+.th-table-img {
+  width: 52px;
+  height: 51px;
+}
+.table td,
+.table th {
+  vertical-align: middle;
+}
+[title~="status"] {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  color: #362f74;
+}
+[title~="actions"] button {
+  width: 91px;
+  height: 38px;
+  left: 1193px;
+  top: 668px;
+  color: #fff;
+  background: #362f74;
+  border-radius: 5px;
+  border: none;
+}
+[title~="actions"] button:hover {
+  opacity: 0.8;
+}
+[title~="completed-task"],
+[title~="amt-debited"] {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  color: #3a3a3a;
+}
